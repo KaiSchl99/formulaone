@@ -23,9 +23,9 @@ def get_path_to_data():
 
 def get_raw_data_path():
     """Return path to raw data."""
-    return get_path_to_data() / 'RawData'
+    return get_path_to_data() / 'RawMovieData.json'
 
 
 def get_tidy_data_path():
     """Return path to tidy data."""
-    return get_path_to_data() / 'TidyData'
+    return get_path_to_data() / 'TidyMovieData.parquet'

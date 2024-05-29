@@ -55,7 +55,7 @@ def write_loaded_movies():
 
     json_object = json.dumps(data, indent=4, cls=DecimalEncoder)
 
-    with open("./Data/movies.json", "w") as outfile:
+    with open("./Data/RawMovieData.json", "w") as outfile:
         outfile.write(json_object)
     
     print("Data successfully written!")

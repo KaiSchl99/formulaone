@@ -40,3 +40,8 @@ The ``load_db.load_movies.write_loaded_movies()``
 Datacleaner
 ---------------
 
+
+The ``load_db.prepare_data.clean_and_write_data()``
+
+.. autofunction:: load_db.prepare_data.clean_and_write_data
+
