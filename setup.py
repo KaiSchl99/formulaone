@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='formulaone',
+    name='load_db',
     version='0.1.0',
     description='Downloads and prepares formula one data',
     long_description=readme,
-    author='Timo Schuerg',
-    author_email='t.schuerg@th-bingen.de',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Kai Schlauersbach',
+    author_email='kai.schlauersbach@stud.h-da.de',
+    url='https://github.com/KaiSchl99/formulaone',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )

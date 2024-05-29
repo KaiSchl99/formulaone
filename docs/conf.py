@@ -18,6 +18,8 @@
 
 import pathlib
 import sys
+import os
+
 sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 
 # -- General configuration -----------------------------------------------------
@@ -45,8 +47,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'sample'
-copyright = u'2012, Kenneth Reitz'
+project = u'load_db'
+copyright = u'2024, Kai Schlauersbach'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

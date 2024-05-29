@@ -1,7 +1,7 @@
-﻿sample.helpers
-==============
+﻿load\_db.helpers
+================
 
-.. automodule:: sample.helpers
+.. automodule:: load_db.helpers
 
    
    
@@ -20,6 +20,12 @@
    
 
    
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      DecimalEncoder
    
    
 
