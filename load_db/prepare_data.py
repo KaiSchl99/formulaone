@@ -35,7 +35,11 @@ def clean_and_write_data():
     df.to_parquet(path_to_save)
 
 
-# Ausgabe des "tidy" DataFrames
-clean_and_write_data()
+def main():
+    # Ausgabe des "tidy" DataFrames
+    clean_and_write_data()
 
+
+if __name__ == "__main__":
+    main()
 
