@@ -27,6 +27,7 @@ jmespath==1.0.1
 joblib==1.4.2
 jupyter_client==8.6.2
 jupyter_core==5.7.2
+-e git+https://github.com/KaiSchl99/formulaone.git@a754a256de41bf1b56c06be2f3c4d011b4d15d41#egg=load_db
 MarkupSafe==2.1.5
 matplotlib-inline==0.1.7
 nest-asyncio==1.6.0
